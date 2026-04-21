@@ -31,27 +31,19 @@ const PROJECTS = [
     status: 'Research',
   },
   {
-    name: 'Hyderabad LST Study',
+    name: 'Karnataka power prediction Study',
     description:
-      'Research project correlating biophysical and socio-economic factors with Land Surface Temperatures in Hyderabad using Landsat 8 summer 2024 data.',
+      'Forecasted Karnataka’s 2023 hourly electricity demand using an LSTM model trained on 2021–2022 data, achieving low error rates and exploring variants like MIMO and sliding windows.',
     tags: ['Python', 'Remote Sensing', 'Data Analysis', 'GIS'],
-    repo: 'hyderabad-lst-study',   // ← replace with your actual repo name
+    repo: 'Power_Prediction',   // ← replace with your actual repo name
     status: 'Research',
   },
   {
-    name: 'BharatGPT+',
+    name: 'sweetcrypt-glycan-encryptor',
     description:
-      'A Streamlit-based AI assistant integrating Ollama backend, Dify prompt logic, voice I/O (TTS + ASR), and optional RAG for Indian language support.',
+      'A unique encryption tool that combines strong cryptography with glycan-inspired visualization, created for the 418 Hackathon.',
     tags: ['Python', 'Streamlit', 'LLM', 'RAG', 'TTS'],
-    repo: 'bharatgpt-plus',        // ← replace with your actual repo name
-    status: 'Complete',
-  },
-  {
-    name: 'Predictive Maintenance (CMAPSS)',
-    description:
-      'Multi-phase ML project on the CMAPSS dataset involving clustering, classification, regression, and risk scoring for aircraft engine predictive maintenance.',
-    tags: ['Python', 'Scikit-learn', 'ML', 'Jupyter'],
-    repo: 'predictive-maintenance', // ← replace with your actual repo name
+    repo: 'sweetcrypt-glycan-encryptor',        // ← replace with your actual repo name
     status: 'Complete',
   },
 ];

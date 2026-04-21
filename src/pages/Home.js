@@ -3,13 +3,13 @@ import './Home.css';
 const PERSONAL = {
   name:         'Nikhil Varma',
   role:         'AI/ML Engineer · Undergraduate at Mahindra University',
-  phone:        '+91 XXXXX XXXXX',
+  phone:        '+91 98486 49309',
   emailPersonal:'vnvarma39@gmail.com',
-  emailCollege: 'nikhil.varma@mahindrauniversity.edu.in',
+  emailCollege: 'se23uari131@mahindrauniversity.edu.in',
   github:       'https://github.com/vnvarma39',
   linkedin:     'https://linkedin.com/in/vnvarma39',
   location:     'Hyderabad, India',
-  avatar:       '%PUBLIC_URL%/profile.jpg',
+  avatar:       'E:\NIKHIL\MAHINDRA UNIVERSITY\sem 6\webtech\portfolio-proj\nikhil-portfolio\nikhil-portfolio\public/profile.jpeg',
   bio: `Hi, I'm Nikhil — an AI/ML enthusiast and undergraduate at Mahindra University, passionate about building intelligent systems that solve real-world problems.\n\nI'm currently working on AI projects in sustainability, smart grids, and ML research. I enjoy turning complex research ideas into practical prototypes.`,
 };
 
@@ -30,9 +30,9 @@ const INTERESTS = [
 
 const DETAILS = [
   { label: 'Name',           value: 'Nikhil Varma' },
-  { label: 'Phone',          value: '+91 XXXXX XXXXX' },
+  { label: 'Phone',          value: '+91 98486 49309' },
   { label: 'Personal Email', value: 'vnvarma39@gmail.com',                        href: 'mailto:vnvarma39@gmail.com' },
-  { label: 'College Email',  value: 'nikhil.varma@mahindrauniversity.edu.in',      href: 'mailto:nikhil.varma@mahindrauniversity.edu.in' },
+  { label: 'College Email',  value: 'se23uari131@mahindrauniversity.edu.in',      href: 'mailto:se23uari131@mahindrauniversity.edu.in' },
   { label: 'University',     value: 'Mahindra University, Hyderabad' },
   { label: 'Location',       value: 'Hyderabad, India' },
   { label: 'GitHub',         value: 'github.com/vnvarma39',   href: 'https://github.com/vnvarma39' },
