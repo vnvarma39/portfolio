@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(12,12,15,0.85);
+  background: rgba(12,12,15,0.8);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
@@ -20,13 +20,13 @@
 
 .navbar-logo {
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
   letter-spacing: .08em;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .logo-dot {
@@ -40,7 +40,7 @@
 
 @keyframes pulse-glow {
   0%, 100% { box-shadow: 0 0 6px var(--violet); opacity: 1; }
-  50%       { box-shadow: 0 0 16px var(--violet-lt); opacity: 0.5; }
+  50%       { box-shadow: 0 0 16px var(--violet-lt); opacity: 0.6; }
 }
 
 .navbar-links {
@@ -76,4 +76,9 @@
 .nav-link--active:hover {
   color: var(--violet-lt);
   background: var(--violet-dim);
+}
+
+@media (max-width: 600px) {
+  .navbar-inner { padding: 0 20px; }
+  .nav-link { padding: 6px 12px; font-size: 12px; }
 }
