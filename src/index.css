@@ -1,45 +1,40 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap');
 
 :root {
-  --bg:         #0d1117;
-  --bg-2:       #161b22;
-  --bg-3:       #21262d;
-  --border:     #30363d;
-  --text:       #e6edf3;
-  --text-muted: #7d8590;
-  --accent:     #58a6ff;
-  --accent-2:   #3fb950;
-  --accent-3:   #f78166;
-  --font:       'Inter', sans-serif;
-  --mono:       'Fira Code', monospace;
+  --bg:          #0C0C0F;
+  --bg-2:        #13131A;
+  --bg-3:        #1C1C26;
+  --bg-4:        #252532;
+  --border:      rgba(255,255,255,0.07);
+  --border-2:    rgba(255,255,255,0.12);
+  --text:        #F0EEE8;
+  --text-muted:  #7A7890;
+  --text-dim:    #4A4860;
+  --violet:      #8B5CF6;
+  --violet-lt:   #A78BFA;
+  --violet-glow: rgba(139,92,246,0.15);
+  --violet-dim:  rgba(139,92,246,0.06);
+  --teal:        #2DD4BF;
+  --amber:       #F59E0B;
+  --rose:        #FB7185;
+  --font-display:'Syne', sans-serif;
+  --font-serif:  'Instrument Serif', serif;
+  --font-mono:   'DM Mono', monospace;
+  --ease:        cubic-bezier(.16,1,.3,1);
 }
 
-html {
-  scroll-behavior: smooth;
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
 body {
-  font-family: var(--font);
-  background-color: var(--bg);
+  font-family: var(--font-display);
+  background: var(--bg);
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
+a { color: var(--violet-lt); text-decoration: none; transition: color .2s; }
+a:hover { color: var(--text); }
+img { max-width: 100%; display: block; }

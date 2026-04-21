@@ -6,9 +6,8 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <span className="navbar-logo">
-          <span className="logo-bracket">&lt;</span>
-          NV
-          <span className="logo-bracket">/&gt;</span>
+          <div className="logo-dot" />
+          nikhil.dev
         </span>
         <nav className="navbar-links">
           <NavLink

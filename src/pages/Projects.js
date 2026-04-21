@@ -7,19 +7,19 @@ import './Projects.css';
 */
 const PROJECTS = [
   {
-    name: 'Smart Grid AI',
+    name: 'OPSD_FR_Detection',
     description:
-      'AI project for electricity demand forecasting and distribution optimization across TSSPDCL zones. Uses time series models and ML pipelines to predict load and reduce wastage.',
+      'This project implements a complete forecasting and anomaly-detection pipeline for France (FR) electricity load data using OPSD Time Series (hourly) from 2018–2020.',
     tags: ['Python', 'Machine Learning', 'Time Series', 'Pandas'],
-    repo: 'smart-grid-ai',    // ← replace with your actual repo name
+    repo: 'OPSD_FR_Detection',    // ← replace with your actual repo name
     status: 'Active',
   },
   {
-    name: 'Polymorphic Honeypot',
+    name: '🔬 Quantum Security Intelligence Platform (QSIP)',
     description:
-      'A Gen-AI powered dynamic honeypot system that adapts its behaviour to deceive and log attackers. Uses LLM-based response generation for realistic decoy interactions.',
+      'Quantum-Assisted Vulnerability Graph Analysis + Quantum-Inspired Automated Patch Synthesis — a unified, end-to-end AI security pipeline that discovers multi-step attack paths across your entire software architecture and automatically synthesizes, validates, and proposes minimal patches.',
     tags: ['Python', 'Gen AI', 'Cybersecurity', 'LLM'],
-    repo: 'polymorphic-honeypot',  // ← replace with your actual repo name
+    repo: 'quantum-security-platform',  // ← replace with your actual repo name
     status: 'Active',
   },
   {
@@ -27,7 +27,7 @@ const PROJECTS = [
     description:
       'Deep learning project using stochastic differential equations to denoise images with multiplicative/gamma noise, targeting ≥80% image restoration.',
     tags: ['Python', 'PyTorch', 'Deep Learning', 'Computer Vision'],
-    repo: 'sde-image-denoising',   // ← replace with your actual repo name
+    repo: 'SDE-based-image-denoiser',   // ← replace with your actual repo name
     status: 'Research',
   },
   {
